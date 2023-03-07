@@ -1,0 +1,7 @@
+name: factory-qc-test
+channels:
+  - conda-forge
+dependencies:
+  - interpret
+  - notebook
+  - ipykernel
