@@ -1,7 +1,9 @@
-name: factory-qc-test
+name: factoryqc-blackbox
 channels:
   - conda-forge
 dependencies:
-  - interpret
+  - python=3.9
   - notebook
   - ipykernel
+  - pip:
+    - raiwidgets
