@@ -1,7 +1,9 @@
-name: factory-pm-glassbox
+name: factory-qc-glassbox
 channels:
   - conda-forge
 dependencies:
-  - interpret
+  - python=3.9
   - notebook
   - ipykernel
+  - pip:
+    - interpret

@@ -1,4 +1,4 @@
-name: factoryqc-blackbox
+name: factory-qc-blackbox
 channels:
   - conda-forge
 dependencies:
