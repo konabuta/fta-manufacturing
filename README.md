@@ -1,15 +1,14 @@
 # fta-manufacturing
 
-This repo is a collection of sample codes of AI for Manufacturing. The following secenario is supported right now.
+This repo is a collection of sample codes of AI for Manufacturing. The following secenario and technologies are supported right now.
 
 - Quality Control
 - Predictive Control
 
-
-
+---
 # Contents
-
-## Quality Control
+## Manufacturing scenario
+### Quality Control
 - [Overview](quality-control/docs/qc-overview.md)
 - [Data](quality-control/docs/qc-data-integration.md)
 - [Data Analysis](quality-control/docs/qc-data-analysis.md)
@@ -18,7 +17,7 @@ This repo is a collection of sample codes of AI for Manufacturing. The following
 - [Demonstration](quality-control/docs/qc-demonstration.md)
 
 
-## Predictive Maintenance
+### Predictive Maintenance
 - [Overview](predictive-maintenance/docs/pm-overview.md)
 - [Data](predictive-maintenance/docs/pm-data.md)
 - [Data Analysis](predictive-maintenance/docs/pm-data-analysis.md)
@@ -32,5 +31,5 @@ This repo is a collection of sample codes of AI for Manufacturing. The following
 - [XAI Overview](XAI/docs/xai-overview.md)
 - [XAI for Manufacturing](XAI/docs/xai-for-manufacturing.md)
 
-
+---
 # References
