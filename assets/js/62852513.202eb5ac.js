@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[804],{9584:a=>{a.exports=JSON.parse('{"label":"facebook","permalink":"/fta-manufacturing/blog/tags/facebook","allTagsPath":"/fta-manufacturing/blog/tags","count":1}')}}]);
