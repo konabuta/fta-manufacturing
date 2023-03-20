@@ -29,16 +29,16 @@ Data Scientists, Reseachers, Developers, Engineers who are involved in DX
 #### Part1 : Introduction (15:05 - 15:30)
 - [製造業における AI・機械学習の概要](../manufacturing/docs/ai-and-ml-in-manufacturing.md)
 - [Azure Machine Learning 概要](https://konabuta.github.io/azure-machine-learning-playbook/docs/azureml/fundamentals/azureml-basic)s
-- 機械学習モデルの解釈可能性と説明可能性
-    - [概要](../technologies/XAI/xai-101.md)
-    - [手法の詳細](../technologies/XAI/xai-alrogithm.md)
-    - [Microsoft の技術](../technologies/XAI/xai-microsoft.md)
+- 機械学習モデルの説明性
+    - [解釈可能性と説明可能性](https://konabuta.github.io/azure-machine-learning-playbook/docs/azureml/responsible-ai/rai-interpretability-explainability)
+    - [反実仮想説明](https://konabuta.github.io/azure-machine-learning-playbook/docs/azureml/responsible-ai/rai-counterfactual-explanation)
+    - [Responsible AI Toolbox](http://localhost:3001/azure-machine-learning-playbook/docs/azureml/responsible-ai/rai-toolbox-for-debug)
 - Q&A
 
 #### Part2 : Quality Control (15:30 - 15:45)
 - [品質管理における AI・機械学習の活用](../quality-control/docs/qc-overview.md)
 - AI・機械学習の技術
-    - [1 変数 & 多変数の解析](../quality-control/docs/qc-diagnostic.md)s
+    - [1 変数 & 多変数の解析](../quality-control/docs/qc-diagnostic.md)
     - [品質予測](../quality-control/docs/qc-predictive.md)
 - [デモンストレーション](../quality-control/docs/qc-demonstration.md)
 
