@@ -8,7 +8,7 @@ title: デモンストレーション
 製造工程のデータと検査工程のデータの統合データを用いて、品質予測モデルを構築します。従来の統計的な手法であるロジスティック回帰や決定木によるモデル構築と解釈、また、一般化加法モデルによるモデル構築と解釈を行います。
 
 ### コード
-- [Notebook](../notebooks/1-factory-explainable.ipynb)
+<!-- - [Notebook](../notebooks/1-factory-explainable.ipynb) -->
 
 
 ## 異常画像検知モデルの構築と説明s 
