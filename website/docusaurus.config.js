@@ -8,20 +8,20 @@ const katex = require("rehype-katex");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "My Site",
+  title: "FastTrack for Azure - Manufacturing",
   tagline: "Dinosaurs are cool",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://your-docusaurus-test-site.com",
+  url: "https://konabuta.github.io/",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/",
+  baseUrl: "fta-manufacturing/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "konabuta", // Usually your GitHub org/user name.
+  projectName: "fta-manufacturing", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -30,8 +30,8 @@ const config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: "en",
-    locales: ["en"],
+    defaultLocale: "ja",
+    locales: ["ja"],
   },
 
   presets: [
@@ -44,7 +44,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+            "https://github.com/konabuta/fta-manufacturing/tree/main/website",
           remarkPlugins: [math],
           rehypePlugins: [katex],
         },
@@ -76,7 +76,7 @@ const config = {
       navbar: {
         title: "FastTrack for Azure - Manufacturing",
         logo: {
-          alt: "My Site Logo",
+          alt: "FastTrack for Azure - Manufacturing",
           src: "img/logo.svg",
         },
         items: [
@@ -104,6 +104,11 @@ const config = {
           //   label: "GitHub",
           //   position: "right",
           // },
+          {
+            href: "https://github.com/konabuta/fta-manufacturing",
+            label: "GitHub",
+            position: "right",
+          },
         ],
       },
       footer: {

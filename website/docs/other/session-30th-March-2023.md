@@ -1,6 +1,6 @@
 ---
 id: session-30th-March-2023
-title: メモ
+title: 2023年3月30日 化学工業日報セミナー
 ---
 # Azure Machine Learning を活用した工場データ分析
 
@@ -31,7 +31,7 @@ Data Scientists, Reseachers, Developers, Engineers who are involved in DX
 - FastTrack for Azure プログラムのご案内
 
 #### Part1 : Introduction (15:05 - 15:30)
-- [製造業における AI・機械学習の概要](../manufacturing/docs/ai-and-ml-in-manufacturing.md)
+- [製造業における AI・機械学習の概要](../manufacturing/manufacturing/ai-and-ml-in-manufacturing.md)
 - [Azure Machine Learning 概要](https://konabuta.github.io/azure-machine-learning-playbook/docs/azureml/fundamentals/azureml-basic)s
 - 機械学習モデルの説明性
     - [解釈可能性と説明可能性](https://konabuta.github.io/azure-machine-learning-playbook/docs/azureml/responsible-ai/rai-interpretability-explainability)
@@ -40,19 +40,19 @@ Data Scientists, Reseachers, Developers, Engineers who are involved in DX
 - Q&A
 
 #### Part2 : Quality Control (15:30 - 15:45)
-- [品質管理における AI・機械学習の活用](../quality-control/docs/qc-overview.md)
+- [品質管理における AI・機械学習の活用](../manufacturing/quality-control/qc-overview.md)
 - AI・機械学習の技術
-    - [1 変数 & 多変数の解析](../quality-control/docs/qc-diagnostic.md)
-    - [品質予測](../quality-control/docs/qc-predictive.md)
-- [デモンストレーション](../quality-control/docs/qc-demonstration.md)
+    - [1 変数 & 多変数の解析](../manufacturing/quality-control/qc-diagnostic.md)
+    - [品質予測](../manufacturing/quality-control/qc-predictive.md)
+- [デモンストレーション](../manufacturing/quality-control/qc-demonstration.md)
 
 - Q&A
 
 #### Part3 : Equipment Maintenance (15:45 - 15:55)
-- [設備保全のおける AI・機械学習の概要](../equipment-maintenance/docs/em-overview.md)
+- [設備保全のおける AI・機械学習の概要](../manufacturing/equipment-maintenance/em-overview.md)
 - AI・機械学習の技術
-    - [予知保全](../equipment-maintenance/docs/em-predictive-maintenance.md)
-- [デモンストレーション](../equipment-maintenance/docs/em-demonstration.md)
+    - [予知保全](../manufacturing/equipment-maintenance/em-predictive-maintenance.md)
+- [デモンストレーション](../manufacturing/equipment-maintenance/em-demonstration.md)
 - Q&A
 
 #### Part4 : Summary (15:55 - 16:30)
