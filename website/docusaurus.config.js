@@ -10,7 +10,8 @@ const katex = require("rehype-katex");
 const config = {
   title: "FastTrack for Azure - Manufacturing",
   tagline: "Dinosaurs are cool",
-  favicon: "img/favicon.ico",
+  favicon: "img/logo.svg",
+  // favicon: "img/favicon.ico",
 
   // Set the production url of your site here
   url: "https://konabuta.github.io/",

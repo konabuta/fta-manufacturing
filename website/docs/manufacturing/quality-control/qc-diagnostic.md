@@ -2,7 +2,7 @@
 id: qc-diagnostic
 title: 1 変数 & 多変数の解析
 ---
-本ページでは、**プロセス管理** と **要因探索** の 2 つのシナリオにおける **1 変数 & 多変数の解析** の技術について説明します。
+本ページでは、**プロセス管理** と **要因探索** の 2 つのシナリオにおける **1 変数 & 多変数の解析** の技術について説明します。また機械学習モデルの透明性の技術を活用する方法も説明します。
 
 - [プロセス管理](#プロセス管理)
     - [1 変数の解析](#1-変数の解析)
@@ -29,8 +29,8 @@ title: 1 変数 & 多変数の解析
 
 <img src={require('./images/qc-process-management-multivariate.png').default} width="500" /><br />
 
-
-#### 相関関係を考慮するとは？？
+#### :bulb: 相関関係を考慮するとは？
+例えば下図のように、センサー1 とセンサー2 に相関関係がある場合を考えます。相関関係を考慮せずに各変数ごとに閾値を設けても異常を十分に検知することが出来ません。相関関係を考慮することで、下右図のように異常 (赤点) を検知することが出来るようになります。
 <img src={require('./images/qc-process-management-correlation.png').default} width="500" /><br />
 
 <!-- 
@@ -44,15 +44,20 @@ title: 1 変数 & 多変数の解析
 
 <img src={require('./images/qc-factor-analysis.png').default} width="500" /><br />
 
-### 手法例: 線形回帰モデルを用いた多変数の解析
+<br/>
+
+### 要因探索で用いる主な手法
+要因探索で用いる代表的な手法を紹介します。
+
+#### 手法例: 線形回帰モデルを用いた多変数の解析
 ナイーブな手法として**線形回帰モデル**が挙げられます。各変数の値に重み (回帰係数) を掛け合わせたものを予測値として出力します。
 <img src={require('./images/qc-factor-analysis-rl.png').default} width="500" /><br />
 
-### 手法例: 決定木を用いた多変数の解析
+#### 手法例: 決定木を用いた多変数の解析
 **決定木**は各変数に関する条件分岐を用いて、分類や回帰を行います。
 <img src={require('./images/qc-factor-analysis-dt.png').default} width="500" /><br />
 
-### 手法例: ニューラルネットワークを用いた多変数の解析
+#### 手法例: ニューラルネットワークを用いた多変数の解析
 近年、著しい進化を遂げている**ニューラルネットワーク**は、多層のネットワーク構造を用いて予測値を出力することができます。
 <img src={require('./images/qc-factor-analysis-nn.png').default} width="500" /><br />
 
@@ -83,6 +88,8 @@ title: 1 変数 & 多変数の解析
 **反実仮想説明** は、機械学習モデルの予測が変化する (増加/減少する or 反対になる) 特徴量のサンプルを提示することで機械学習モデルを説明しようとする説明性の手法です。
 
 例えば、品質を予測するモデルを利用したところ、品質が悪いという予測値が返されたとします。反実仮想説明は、この予測値を変化させるため、つまり品質を良くするために、特徴量をどのように変化されば良いのかを提示することができます。
+
+<img src={require('./images/qc-counterfactual-usecase.png').default} width="500" /><br />
 
 #### 参考情報
 - [反実仮想説明](https://konabuta.github.io/azure-machine-learning-playbook/docs/azureml/responsible-ai/rai-counterfactual-explanation)
