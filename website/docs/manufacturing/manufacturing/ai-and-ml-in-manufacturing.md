@@ -3,7 +3,14 @@ id: ai-and-ml-in-manufacturing
 title: AI・機械学習の適用
 ---
 # 製造業における AI・機械学習
+本ページでは製造業において AI・機械学習のユースケース、データ活用の 5 つのレベルについて説明します。
 
+- [製造業の変革](#製造業の変革)
+- [ユースケース](#ユースケース)
+- [データ分析の手法](#データ分析の手法)
+- [大規模言語モデルの登場](#大規模言語モデルの登場)
+
+---
 ## 製造業の変革
 以前のものづくりはメーカーが製品を生産し、顧客に販売して終わりでした。近年はそういったビジネスモデルから脱却し、データを活用して顧客に対して継続的にサービス・価値を提供し続ける必要があります。
 
@@ -15,6 +22,8 @@ title: AI・機械学習の適用
 
 - :exclamation: スキルギャップの拡大とノウハウの継承
   - :white_check_mark: 高度なレポーティング、自然なインターフェースと効率的な技術習得
+
+---
 
 ## ユースケース
 **組み立て製造業**<br/>
@@ -45,15 +54,19 @@ AI・機械学習は "データ分析" で利用されます。ただし一概�
 - **認知的分析 (Cognitive/Artificial Intelligence)**
   - 人間の意思決定に近い分析を自律的に行ったり、高度にヒトの意思決定をサポートする手法です。例えば、強化学習によって製造工程を自動化します。
 
-## 参考
+### 参考
 - [データ/アナリティクスとは？](https://www.gartner.co.jp/ja/topics/data-and-analytics)
 - [データ分析の種類を理解する](https://learn.microsoft.com/ja-jp/training/modules/understand-concepts-of-data-analytics/2-understand-data-analytics-types)
 
 ---
-## LLM の登場
+## 大規模言語モデルの登場
+
+大量のテキストデータを用いて学習された大規模言語モデル (Large Language Model, LLM) が登場しました。製造業においても様々なユースケースが考えられます。
+
 ### ユースケース 
 Azure OpenAI Service などの大規模言語モデルを活用したユースケースです。
 
+<img src={require('./images/openai-usecase.png').default} width="800" /><br />
 
 
 
