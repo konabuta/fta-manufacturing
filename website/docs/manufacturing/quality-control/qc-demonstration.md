@@ -8,7 +8,7 @@ title: デモンストレーション
 製造工程のデータと検査工程のデータの統合データを用いて、品質予測モデルを構築します。従来の統計的な手法であるロジスティック回帰や決定木によるモデル構築と解釈、また、一般化加法モデルによるモデル構築と解釈を行います。
 
 ### コード
-- [qc-interpretability.ipynb](https://github.com/konabuta/fta-manufacturing/tree/main/quality-control/notebooks/qc-interpretability.ipynb)
+- [qc-interpretability.ipynb](https://github.com/konabuta/fta-manufacturing/tree/main/quality-control/notebooks/qc-interpretable-model.ipynb)
 ### ポイント
 - 機械学習アルゴリズム
     - ロジスティック回帰は各変数に重みを掛け合わせた値の和が予測値となる
