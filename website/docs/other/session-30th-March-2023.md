@@ -4,15 +4,15 @@ title: 2023年3月30日 化学工業日報セミナー
 ---
 # Azure Machine Learning を活用した工場データ分析
 
-## Session information
-- Data: 30th March, 2023 15:30 - 17:00 (JST)
-- Location: Online
-- Application form: https://www.chemicaldaily.co.jp/seminar/230330/
+## セッション情報
+- 日時: 30th March, 2023 15:30 - 17:00 (JST)
+- 場所: オンライン
+- 申し込みフォーム: https://www.chemicaldaily.co.jp/seminar/230330/
 
 
-## Materials
-<!-- - [Slide (PDF)]()
-- [Demonstration (Jupyter Notebook)]() -->
+## 資料
+- [FastTrack for Azure - Manufacturing](https://konabuta.github.io/fta-manufacturing/)
+- [Azure Machine Learning Playbook](https://konabuta.github.io/azure-machine-learning-playbook/)
 
 ## What will you learn?
 
