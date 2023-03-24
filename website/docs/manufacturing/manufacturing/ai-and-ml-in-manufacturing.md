@@ -3,7 +3,7 @@ id: ai-and-ml-in-manufacturing
 title: AI・機械学習の適用
 ---
 # 製造業における AI・機械学習
-本ページでは製造業において AI・機械学習のユースケース、データ活用の 5 つのレベルについて説明します。
+本ページでは、近年の製造業における変革のモチベーションや AI・機械学習を用いたユースケース、また AI・機械学習の利用を含むデータ活用の 5 段階のレベルについて説明します。
 
 - [製造業の変革](#製造業の変革)
 - [ユースケース](#ユースケース)
@@ -12,16 +12,16 @@ title: AI・機械学習の適用
 
 ---
 ## 製造業の変革
-以前のものづくりはメーカーが製品を生産し、顧客に販売して終わりでした。近年はそういったビジネスモデルから脱却し、データを活用して顧客に対して継続的にサービス・価値を提供し続ける必要があります。
+以前のものづくりは、メーカーが製品を生産し、顧客に販売して終わりでした。近年はそういったビジネスモデルから脱却し、データを活用して顧客に対して継続的にサービス・価値を提供し続ける必要があります。
 
-- :exclamation: **マージン削減とコスト上昇**
-> :white_check_mark: 運用効率の向上、設備保全の自動化、部品の長期運用の実現
+:exclamation: **マージン削減とコスト上昇** <br/>
+&nbsp;:arrow_right: :white_check_mark: 運用効率の向上、設備保全の自動化、部品の長期運用の実現
 
-- :exclamation: **顧客ニーズの多様化と製品オファリング**
-> :white_check_mark: 予測的サプリチェーン管理、製品開発、パーソナライズされた提案・契約・見積もり
+:exclamation: **顧客ニーズの多様化と製品オファリング** <br/>
+&nbsp;:arrow_right: :white_check_mark: 予測的サプリチェーン管理、製品開発、パーソナライズされた提案・契約・見積もり
 
-- :exclamation: **スキルギャップの拡大とノウハウの継承**
-> :white_check_mark: 高度なレポーティング、自然なインターフェースと効率的な技術習得
+:exclamation: **スキルギャップの拡大とノウハウの継承** <br/>
+&nbsp;:arrow_right: :white_check_mark: 高度なレポーティング、自然なインターフェースと効率的な技術習得
 
 ---
 
@@ -37,11 +37,13 @@ title: AI・機械学習の適用
 ※電力業界向けに記載しています。
 <img src={require('./images/gas-energy-usecase.png').default} width="800" /><br />
 
-
+#### 参考情報
+- [製造業向け Azure](https://azure.microsoft.com/ja-jp/solutions/industries/discrete-manufacturing/#overview)
+- [IoT Signals: Manufacturing Spotlight の 6 つの重要な知見](https://www.microsoft.com/ja-jp/industry/blog/manufacturing/2022/08/26/iot-signals/)
 
 ---
 ## データ分析の手法
-AI・機械学習は "データ分析" で利用されます。ただし一概に "データ分析" といってもさまざまな分析手法が存在します。代表的な 5 つの分析手法を紹介します。
+AI・機械学習は "データ分析" で利用されます。一概に "データ分析" といってもさまざまな分析手法が存在します。ここでは代表的な 5 つの分析手法を紹介します。
 
 - **記述的分析 (Descriptive)**
   - 過去に発生した事象に対する分析手法です。例えば工場の稼働データを取得し、過去の稼働率を分析します。レポートやダッシュボードなどの可視化を使うケースが多いです。
@@ -69,5 +71,5 @@ Azure OpenAI Service などの大規模言語モデルを活用したユース�
 <img src={require('./images/openai-usecase.png').default} width="800" /><br />
 
 
-
+---
 

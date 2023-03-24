@@ -2,6 +2,8 @@
 id: em-overview
 title: 概要
 ---
+<!-- TODO : スライドの追加 -->
+
 # 設備保全
 本ページでは設備メンテナンスの考え方と 4 つのデータ活用のレベルについて説明します。
 
@@ -33,3 +35,5 @@ title: 概要
 - **最適化・自動化**
   - 最適なリソース確保やスケジューリングによってメンテナンスを行う
 
+### 参考情報
+- [製造業における予測メンテナンスの概要](https://learn.microsoft.com/ja-jp/azure/architecture/industries/manufacturing/predictive-maintenance-overview)
