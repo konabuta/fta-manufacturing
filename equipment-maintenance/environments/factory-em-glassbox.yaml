@@ -1,0 +1,10 @@
+name: factory-em-glassbox
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - interpret
+  - notebook
+  - ipykernel
+  - pip:
+    -  dash_cytoscape
