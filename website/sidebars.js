@@ -22,7 +22,7 @@ const sidebars = {
       type: "category",
       label: "製造業",
       items: ["manufacturing/manufacturing/ai-and-ml-in-manufacturing"],
-      collapsed: true,
+      collapsed: false,
     },
     {
       type: "category",

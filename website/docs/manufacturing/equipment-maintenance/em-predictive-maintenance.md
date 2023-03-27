@@ -53,6 +53,10 @@ title: 予知保全
 ### 機械学習モデルの透明性
 **解釈可能性・説明可能性** や **反実仮想説明** などといった機械学習の透明性の技術を用いることで、設備故障の種類を分類したり、故障原因のヒントを得ることができます。
 
+
+<img src={require('./images/em-predictive-maintenance-process.png').default} width="600" /><br />
+
+
 ### 参考情報
 - [解釈可能性 & 説明可能性 - Azure ML Playbook](https://konabuta.github.io/azure-machine-learning-playbook/docs/azureml/responsible-ai/rai-interpretability-explainability)
 - [反実仮想説明 - Azure ML Playbook](https://konabuta.github.io/azure-machine-learning-playbook/docs/azureml/responsible-ai/rai-counterfactual-explanation)
