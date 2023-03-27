@@ -23,8 +23,14 @@ title: 予知保全
 #### 🔍 設備が故障する確率を予測する
 「この設備が30日以内に故障する確率は？」といった問いに答えることができる予測方法です。一般的には故障するかどうかのフラグ (正常 or 異常) を予測します。
 
+<img src={require('./images/labelling-for-binary-classification.png').default} width="600" />
+
+<br/>
+
 #### 🔍 設備耐用時間 (RUL) を予測する
 「この設備はあと何日間使えますか？」といった問いに答えることができる予測方法です。一般的には時系列モデルや回帰モデルを用いて、連続的な数値である耐用時間を予測します。
+
+<img src={require('./images/labelling-for-regression.png').default} width="600" />
 
 <br/>
 
@@ -35,7 +41,7 @@ title: 予知保全
 設備の正常時のデータのみを用いて、異常を検知するモデルを構築します。一般的には、教師なし学習の手法を用います。
 
 
-<img src={require('./images/em-anomaly-detection.png').default} width="600" /><br />
+<img src={require('./images/em-anomaly-detection.png').default} width="400" /><br />
 
 <br/>
 
