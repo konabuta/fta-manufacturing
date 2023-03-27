@@ -2,9 +2,9 @@
 id: session-30th-March-2023
 title: 2023年3月30日 化学工業日報セミナー
 ---
-# Azure Machine Learning を活用した工場データ分析
-
+# 2023年3月30日 化学工業日報セミナー :studio_microphone: 
 ## セッション情報
+- タイトル : Azure Machine Learning を活用した工場データ分析
 - 日時: 30th March, 2023 15:30 - 17:00 (JST)
 - 場所: オンライン
 - 申し込みフォーム: https://www.chemicaldaily.co.jp/seminar/230330/
@@ -24,32 +24,32 @@ title: 2023年3月30日 化学工業日報セミナー
 
 
 ### セッション構成
-#### パート0 : 事前準備 (15:00 - 15:05)
+#### パート0 : 事前準備 (15:30 - 15:35)
 - セッション概要のご案内
 - FastTrack for Azure プログラムのご案内
+    - [FastTrack for Azure](https://azure.microsoft.com/ja-jp/programs/azure-fasttrack/#overview)
+    - [AI & ML デリバリーソリューション](https://konabuta.github.io/azure-machine-learning-playbook/docs/fta/fastrack-for-azure-aiml)
 
-#### パート１ : イントロダクション (15:05 - 15:30)
+#### パート１ : イントロダクション (15:35 - 16:00)
 - [製造業における AI・機械学習の概要](../manufacturing/manufacturing/ai-and-ml-in-manufacturing)
 - [Azure Machine Learning 概要](https://konabuta.github.io/azure-machine-learning-playbook/docs/azureml/fundamentals/azureml-basic)
 
 
-#### パート2 : 品質管理 (15:30 - 15:45)
+#### パート2 : 品質管理 (16:00 - 16:15)
 - [品質管理における AI・機械学習の活用](../manufacturing/quality-control/qc-overview.md)
-- AI・機械学習の技術
-    - [1 変数 & 多変数の解析](../manufacturing/quality-control/qc-diagnostic.md)
-    - 機械学習モデルの透明性
-        - [解釈可能性と説明可能性](https://konabuta.github.io/azure-machine-learning-playbook/docs/azureml/responsible-ai/rai-interpretability-explainability)
-        - [反実仮想説明](https://konabuta.github.io/azure-machine-learning-playbook/docs/azureml/responsible-ai/rai-counterfactual-explanation)
-        - [Responsible AI Toolbox](https://konabuta.github.io/azure-machine-learning-playbook/docs/azureml/responsible-ai/rai-toolbox-for-debug)
+- [1 変数 & 多変数の解析](../manufacturing/quality-control/qc-diagnostic.md)
+- 機械学習モデルの透明性
+    - [解釈可能性と説明可能性](https://konabuta.github.io/azure-machine-learning-playbook/docs/azureml/responsible-ai/rai-interpretability-explainability)
+    - [反実仮想説明](https://konabuta.github.io/azure-machine-learning-playbook/docs/azureml/responsible-ai/rai-counterfactual-explanation)
+    - [Responsible AI Toolbox](https://konabuta.github.io/azure-machine-learning-playbook/docs/azureml/responsible-ai/rai-toolbox-for-debug)
 - [デモンストレーション](../manufacturing/quality-control/qc-demonstration.md)
 
-#### パート3 : 設備保全 (15:45 - 15:55)
+#### パート3 : 設備保全 (16:15 - 15:30)
 - [設備保全のおける AI・機械学習の概要](../manufacturing/equipment-maintenance/em-overview.md)
-- AI・機械学習の技術
-    - [予知保全](../manufacturing/equipment-maintenance/em-predictive-maintenance.md)
+- [予知保全](../manufacturing/equipment-maintenance/em-predictive-maintenance.md)
 - [デモンストレーション](../manufacturing/equipment-maintenance/em-demonstration.md)
 
-#### パート4 : まとめ (15:55 - 16:30)
+#### パート4 : まとめ (15:30 - 16:00)
 - 本日のまとめ
 - 参考情報のご案内
 - Q&A

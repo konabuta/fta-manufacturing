@@ -72,12 +72,13 @@ title: 1 変数 & 多変数の解析
 近年、著しい進化を遂げている**ニューラルネットワーク**は、多層のネットワーク構造を用いて予測値を出力することができます。
 <img src={require('./images/qc-factor-analysis-nn.png').default} width="500" /><br />
 
-
-単に品質に関する指標を予測する高精度な予測モデルを構築するだけでは不十分です。**機械学習モデルの解釈可能性・説明可能性**を考慮した開発が求められてきます。
+:::caution
+複雑な機械学習モデルを用いることで精度の向上が期待できます。しかしながら、要因探索のけるデータ解析の観点では、単に高精度な予測モデルを構築するだけでは、何が原因で不良が発生しているのか分かりません。そのため**機械学習モデルの透明性**を考慮した開発が求められます。s
+:::
 
 ---
 ## 機械学習モデルの透明性
-品質管理の分野では**統計的な手法**を用いたデータ分析が行われてきました。これは解釈可能性の高いアルゴリズムを利用できるというメリットがある一方で、手法によっては制限事項や前提条件が多く、複雑なデータ・多種多様なデータ形式に対応していないという課題があります。
+品質管理の分野では以前より**統計的な手法**を用いたデータ分析が行われてきました。これは解釈可能性の高いアルゴリズムを利用できるというメリットがある一方で、手法によっては制限事項や前提条件が多く、複雑なデータ・多種多様なデータ形式に対応していないという課題があります。
 
 最先端の機械学習の手法を用いることで、複雑なデータを扱うことができます。しかしながら、その内部構造を理解するのは難しく、高い精度の予測は行えるものの、データ解析に利用できないといった課題があります。この課題に対するアプローチ方法として **解釈可能性・説明可能性** や **反実仮想説明** が挙げられます。
 
@@ -85,23 +86,25 @@ title: 1 変数 & 多変数の解析
 ### 解釈可能性・説明可能性
 まず主流なアプローチ方法として機械学習モデルの解釈可能性・説明可能性を利用することが挙げられます。
 
-**解釈性可能性** の高い機械学習モデルとは、品質管理の分野で長年使われてきた統計的手法 (線形回帰モデル、決定木 etc) のようにモデルの構造が解釈しやすいモデルを指します。更に近年は **GA2M** のように、統計的な手法以外でも高い精度を実現できる解釈性可能性の高いモデルが開発されています。
+**解釈性可能性** の高い機械学習モデルとは、品質管理の分野で長年使われてきた統計的手法 (線形回帰モデル、決定木 etc) のようにモデルの構造が解釈しやすいモデルを指します。更に近年は **一般化加法モデル** のように、統計的な手法以外でも高い精度を実現できる解釈性可能性の高いモデルが開発されています。
 
 また **説明可能性** が高いとは、機械学習モデルがアウトプットした予測に対して、なぜその予測を出力したのかを説明できることを指します。このケースでは機械学習モデルを Blackbox として扱います。つまり、内部の構造は考慮せず、機械学習モデルに対する入力と予測値の関係性を見ます。**SHAP** などの手法が開発されています。
 
 
-<!-- TODO : 品質管理における XAI のイメージ図を載せる -->
+<img src={require('./images/qc-interpretability-explainability-usecase.png').default} width="700" /><br />
 
 #### 参考情報
-- [解釈可能性 & 説明可能性](https://konabuta.github.io/azure-machine-learning-playbook/docs/azureml/responsible-ai/rai-interpretability-explainability)
+- [解釈可能性 & 説明可能性 - Azure ML Playbook](https://konabuta.github.io/azure-machine-learning-playbook/docs/azureml/responsible-ai/rai-interpretability-explainability)
 - [GitHub - SHAP](https://github.com/slundberg/shap)
+
+<br/>
 
 ### 反実仮想説明
 **反実仮想説明** は、機械学習モデルの予測が変化する (増加/減少する or 反対になる) 特徴量のサンプルを提示することで機械学習モデルを説明しようとする説明性の手法です。
 
 例えば、品質を予測するモデルを利用したところ、品質が悪いという予測値が返されたとします。反実仮想説明は、この予測値を変化させるため、つまり品質を良くするために、特徴量をどのように変化されば良いのかを提示することができます。
 
-<img src={require('./images/qc-counterfactual-usecase.png').default} width="500" /><br />
+<img src={require('./images/qc-counterfactual-usecase.png').default} width="700" /><br />
 
 #### 参考情報
-- [反実仮想説明](https://konabuta.github.io/azure-machine-learning-playbook/docs/azureml/responsible-ai/rai-counterfactual-explanation)
+- [反実仮想説明 - Azure ML Playbook](https://konabuta.github.io/azure-machine-learning-playbook/docs/azureml/responsible-ai/rai-counterfactual-explanation)
