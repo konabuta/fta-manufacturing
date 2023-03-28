@@ -18,6 +18,26 @@ title: デモンストレーション
 - モデルの解釈
     - Global と Local の違い
 
+
+### 補足
+#### ロジスティック回帰 - Global な変数重要度の可視化
+<img src={require('./images/qc-demo-interpretability-lr-global.gif').default} width="800" /><br />
+
+#### ロジスティック回帰 - Local な変数重要度の可視化
+<img src={require('./images/qc-demo-interpretability-lr-local.gif').default} width="800" /><br />
+
+#### 決定木 - Global な変数重要度の可視化
+<img src={require('./images/qc-demo-interpretability-dt-global.gif').default} width="800" /><br />
+
+#### 決定木 - Local な変数重要度の可視化
+<img src={require('./images/qc-demo-interpretability-dt-local.gif').default} width="800" /><br />
+
+#### 一般化加法モデル (EBM) - Global な変数重要度の可視化
+<img src={require('./images/qc-demo-interpretability-ebm-global.gif').default} width="800" /><br />
+
+#### 一般化加法モデル (EBM) - Local な変数重要度の可視化
+<img src={require('./images/qc-demo-interpretability-ebm-local.gif').default} width="800" /><br />
+
 ---
 
 ## 説明性の技術による品質不良の分析
@@ -31,6 +51,21 @@ title: デモンストレーション
     - 変数重要度 (Global と Local)
 - 反実仮想説明によるモデルの説明
     - 品質不良を解消するデータサンプルの生成
+
+
+### 補足
+#### Global な変数重要度の可視化
+
+<img src={require('./images/qc-demo-explainability-global-feature-importance.gif').default} width="800" /><br />
+
+
+#### Local な変数重要度の可視化
+
+<img src={require('./images/qc-demo-explainability-local-feature-importance.gif').default} width="800" /><br />
+
+#### 反実仮想説明によるモデルの説明
+
+<img src={require('./images/qc-demo-explainability-counterfactual.gif').default} width="800" /><br />
 
 ---
 ## 異常画像検知モデルの構築と説明
