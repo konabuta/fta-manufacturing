@@ -31,6 +31,7 @@ const sidebars = {
         "manufacturing/quality-control/qc-overview",
         "manufacturing/quality-control/qc-diagnostic",
         "manufacturing/quality-control/qc-demonstration",
+        "manufacturing/quality-control/qc-azure",
       ],
       collapsed: false,
     },

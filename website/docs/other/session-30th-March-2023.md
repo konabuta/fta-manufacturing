@@ -24,7 +24,7 @@ title: 2023年3月30日 化学工業日報セミナー
 
 
 ### セッション構成
-#### パート0 : 事前準備 (15:30 - 15:35)
+#### 事前準備 (15:30 - 15:35)
 - セッション概要のご案内
 - FastTrack for Azure プログラムのご案内
     - [FastTrack for Azure](https://azure.microsoft.com/ja-jp/programs/azure-fasttrack/#overview)
