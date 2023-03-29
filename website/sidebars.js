@@ -30,8 +30,8 @@ const sidebars = {
       items: [
         "manufacturing/quality-control/qc-overview",
         "manufacturing/quality-control/qc-diagnostic",
-        "manufacturing/quality-control/qc-demonstration",
         "manufacturing/quality-control/qc-azure",
+        "manufacturing/quality-control/qc-demonstration",
       ],
       collapsed: false,
     },
