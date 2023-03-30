@@ -32,6 +32,7 @@ title: 2023年3月30日 化学工業日報セミナー
 
 #### パート１ : イントロダクション (15:35 - 16:00)
 - [製造業における AI・機械学習の概要](../manufacturing/manufacturing/ai-and-ml-in-manufacturing)
+- [Azure AI 概要](https://konabuta.github.io/azure-machine-learning-playbook/docs/azureml/fundamentals/azure-ai)
 - [Azure Machine Learning 概要](https://konabuta.github.io/azure-machine-learning-playbook/docs/azureml/fundamentals/azureml-basic)
 
 
@@ -44,12 +45,12 @@ title: 2023年3月30日 化学工業日報セミナー
     - [Responsible AI Toolbox](https://konabuta.github.io/azure-machine-learning-playbook/docs/azureml/responsible-ai/rai-toolbox-for-debug)
 - [デモンストレーション](../manufacturing/quality-control/qc-demonstration.md)
 
-#### パート3 : 設備保全 (16:15 - 15:30)
+#### パート3 : 設備保全 (16:15 - 16:30)
 - [設備保全のおける AI・機械学習の概要](../manufacturing/equipment-maintenance/em-overview.md)
 - [予知保全](../manufacturing/equipment-maintenance/em-predictive-maintenance.md)
 - [デモンストレーション](../manufacturing/equipment-maintenance/em-demonstration.md)
 
-#### パート4 : まとめ (15:30 - 16:00)
+#### パート4 : まとめ (16:30 - 17:00)
 - 本日のまとめ
 - 参考情報のご案内
 - Q&A
