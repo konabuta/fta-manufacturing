@@ -8,8 +8,8 @@ const katex = require("rehype-katex");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "FastTrack for Azure - Manufacturing",
-  tagline: "Dinosaurs are cool",
+  title: "Azure AI for Manufacturing",
+  tagline: "Technical documents by FastTrack for Azure team",
   favicon: "img/logo.svg",
   // favicon: "img/favicon.ico",
 
@@ -75,9 +75,9 @@ const config = {
         },
       },
       navbar: {
-        title: "FastTrack for Azure - Manufacturing",
+        title: "FastTrack for Azure",
         logo: {
-          alt: "FastTrack for Azure - Manufacturing",
+          alt: "FastTrack for Azure",
           src: "img/logo.svg",
         },
         items: [
