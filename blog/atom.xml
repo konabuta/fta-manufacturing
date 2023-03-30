@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://konabuta.github.io/fta-manufacturing/blog</id>
-    <title>FastTrack for Azure - Manufacturing Blog</title>
+    <title>Azure AI for Manufacturing Blog</title>
     <updated>2021-08-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://konabuta.github.io/fta-manufacturing/blog"/>
-    <subtitle>FastTrack for Azure - Manufacturing Blog</subtitle>
+    <subtitle>Azure AI for Manufacturing Blog</subtitle>
     <icon>https://konabuta.github.io/fta-manufacturing/img/logo.svg</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
